@@ -1,0 +1,20 @@
+header
+{
+  "Content-Type": "application/json",
+  "Date": "<Response_Timestamp>",
+  "Server": "AirportInfoCenter/1.0"
+}
+body
+{
+  "flightNumber": "AB1234",
+  "departureDate": "2024-09-13",
+  "estimatedTimeOfArrival": "2024-09-13T18:45:00Z",
+  "status": "On Time"
+}
+Fejlmeddelse
+{
+  "error": {
+    "code": "FLIGHT_NOT_FOUND",
+    "message": "Flight number AB1234 not found for the given departure date."
+  }
+}

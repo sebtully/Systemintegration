@@ -1,0 +1,11 @@
+header
+{
+  "Content-Type": "application/json",
+  "Authorization": "Bearer <API_KEY_OR_TOKEN>",
+  "Date": "<Request_Timestamp>"
+}
+body
+{
+  "flightNumber": "AB1234",
+  "departureDate": "2024-09-13"
+}

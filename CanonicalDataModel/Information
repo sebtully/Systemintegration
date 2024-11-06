@@ -1,0 +1,23 @@
+public class AirlineCompanySAS {
+String Airline; //SAS
+String FlightNo; //SK 239
+String Destination; //JFK
+String Origin; //CPH
+String ArivalDeparture //D
+Date: dato; //6. marts 2017
+Time: tidspunkt; //16:45
+}
+public class AirlineCompanyKLM {
+String Airline; //KLM
+String FlightNo; //154
+String Destination; //San Diego
+String Origin; //Schipol
+Date/Time date/time; //March 06 2017 16:45
+}
+public class AirlineCompanySW {
+String Airline; //South West Airlines
+String FlightNo; //SW056
+String Destination; //New York
+Date date; //03/06/2017
+Time departure; //09:45 PM
+}
